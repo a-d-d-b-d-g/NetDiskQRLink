@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# PyInstaller
+build/
+dist/
+*.spec
+
+# 本地运行时配置
+settings.json
+
+# 打包产物体积较大，走 Releases 分发
+*.exe
+*.lnk
+
+# IDE
+.idea/
+.vscode/
